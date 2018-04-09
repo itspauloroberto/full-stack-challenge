@@ -1,0 +1,34 @@
+<html ng-app="isPalindrome">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Node/Angular Application - Shaw and Partners Full Stack Challenge - Palindromes.</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <style>
+        html { overflow-y:scroll; }
+        body { padding-top:50px; }
+    </style>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="core.js"></script>
+
+</head>
+<body ng-controller="mainController">
+    <div class="container">
+        <div id="todo-form" class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg text-center" placeholder="Input a string and check if it is a palindrome or not." ng-model="formData.text">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg" ng-click="checkPalindrome()">Check</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
