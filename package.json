@@ -1,0 +1,13 @@
+{
+  "name": "isPalindromeRestJS",
+  "version": "0.0.0",
+  "description": "Shaw and partners full stack challenge, palindrome application.",
+  "main": "server.js",
+  "author": "Paulo Roberto Rosa",
+  "dependencies": {
+    "express": "~4.7.2",
+    "morgan": "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  }
+}
